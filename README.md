@@ -3,5 +3,6 @@ Using deep learning machine CNN combination with XAI technique to detect forest 
 
 Convolutional Neural Network (CNN) is a machine learning model used to improve the detection accuracy of forest fires in time. The use of CNN can reduce the time of response and avoid large areas of forest being burned. The goal is to establish a community-based system for Melaka state’s forest fire detection, alert the fire quickly, and inform the fire station. A key feature of the CNN model in detecting forest fires is the integration of XAI, which improves transparency, interpretability, and explainability. The existence of XAI enables the developers to understand the architecture of CNN clearly and can improve the performance of the system to let the user trust the result of CNN.
 
-How the forest fire detector work?
+---How the forest fire detector work?
+
 An application is implemented to enable the user to upload a photo that they found to be a wildfire. The uploaded photo then is sent to the proposed CNN model to classify whether exist of fire or not in the image. The proposed CNN model is well-trained and tested to detect forest fires from the image, the use of XAI makes the proposed model provide understandable justification for its decision. If there exists of fire, the implemented application sends a notification or an alert to the nearest fire station to distinguish the forest fire.
